@@ -114,7 +114,7 @@ def draw_ships(ship_coordinates_list):
 
 # Рисуем поле
 def draw_grid():
-    letters = ['A', 'Б', 'В', 'Г', 'Д', 'Е', 'Ж', 'З', 'И', 'К']
+    letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
     for i in range(11):
         # Горизонтальные линии 1 поле
         pygame.draw.line(screen, BLACK, (left_margin, upper_margin + i * block_size),
