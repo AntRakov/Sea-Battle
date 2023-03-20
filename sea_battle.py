@@ -6,9 +6,9 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 # Переменные для масштабации основного экрана
-block_size = 40
+block_size = 50
 left_margin = 100
-upper_margin = 80
+upper_margin = 90
 size = (left_margin + 30 * block_size , upper_margin + 15 * block_size)
 
 # Иницилизируем pygame
